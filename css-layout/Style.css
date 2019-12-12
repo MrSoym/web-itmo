@@ -1,0 +1,124 @@
+.header {
+    background-color: #eee;
+    /* Grey background color */
+    color: blue;
+    /* Black text color */
+    width: 100%;
+    height: 50px;
+}
+
+.body {
+    height: 900px;
+    width: 100%;
+    font-family: sans-serif; /*arial*/
+    background-color: #eee;
+}
+
+.vertical-menu {
+    margin-left: 10%;
+    width: 200px;
+    /* Set a width if you like */
+    height: 250px;
+    float: left; /*ыравнивает элемент по левому краю, а все остальные элементы, вроде текста, обтекают его по правой стороне.*/
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.content {
+    height: 850px;
+    width: 50%;
+    background-color: #eee;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    /* Make the links appear below each other */
+    padding: 12px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+    float: left;
+}
+
+.chatbox {
+    margin-top: 45%;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.chatbox p {
+    
+   margin-top: 30px;
+    width: 100%;
+    height: 50px;
+}
+.chatbox img{
+    align-items: center;
+   margin-bottom: 100px;
+    position: inherit;
+    
+}
+.footer {
+   
+    width: 100%;
+    height: 60px;
+    float: left;
+    background-color: #eee;
+    /* Grey background color */
+    color: red;
+    /* Black text color */
+    text-decoration: none;
+}
+.footer h1 {
+    vertical-align: middle;
+    text-align: center;
+}
+.main {
+    border: 1px solid #eee;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+ 
+}
+
+.read1{
+    font-size: 25px;
+}
+.read{
+    width: 95%;
+    height: auto;
+    font-size: 20px;
+}
+.text img {
+    align-items: center;
+    width: 95%;   
+}
